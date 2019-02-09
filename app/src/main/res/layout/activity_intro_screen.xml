@@ -55,8 +55,8 @@
             android:backgroundTint="@color/colorAccent"
             android:elevation="?attr/dialogPreferredPadding"
             android:text="Let's Party"
-            android:textSize="32dp"
             android:textColor="#DDD"
+            android:textSize="32dp"
             android:visibility="visible" />
     </RelativeLayout>
 
@@ -69,11 +69,11 @@
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
         android:gravity="center"
-        android:typeface="monospace"
-        android:textStyle="bold|italic"
-        android:textSize="68dp"
+        android:text="PartyPal"
         android:textColor="#DDD"
-        android:text="PartyPal" />
+        android:textSize="68dp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
 
     <RelativeLayout
         android:layout_width="344dp"
