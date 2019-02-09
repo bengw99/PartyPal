@@ -92,31 +92,5 @@
             tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
     </RelativeLayout>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
-
-
-
-
-
-
-
-
-]]>
 </RelativeLayout>
