@@ -92,7 +92,7 @@
             android:layout_height="315dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="19dp"
-            tools:srcCompat="@drawable/Mouth-Alien-Monster-Green-Troll-Martian-Shrek-722415-1" />
+            app:srcCompat="@drawable/Gnome" />
     </RelativeLayout>
 
     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
