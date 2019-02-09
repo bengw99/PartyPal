@@ -95,31 +95,5 @@
             tools:srcCompat="@drawable/Mouth-Alien-Monster-Green-Troll-Martian-Shrek-722415-1" />
     </RelativeLayout>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
-
-
-
-
-
-
-
-
-]]>
 </RelativeLayout>
