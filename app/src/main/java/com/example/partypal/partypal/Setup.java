@@ -1,18 +1,20 @@
 package com.example.partypal.partypal;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
  */
-public class IntroScreen extends AppCompatActivity {
+public class Setup extends AppCompatActivity {
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -87,7 +89,7 @@ public class IntroScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_intro_screen);
+        setContentView(R.layout.activity_setup);
 
         mVisible = true;
 
@@ -99,6 +101,19 @@ public class IntroScreen extends AppCompatActivity {
                 toggle();
             }
         });
+
+        Button next = (Button)findViewById(R.id.backbutton);
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goBack();
+            }
+        });
+    }
+
+    private void goBack() {
+        Intent intent = new Intent(this, IntroScreen.class);
+        startActivity(intent);
     }
 
     @Override
